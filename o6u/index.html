@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="logo">O6U</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navnbar">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="homeimg">
+        <img src="bac.jpg" class="myphoto" />
+      </div>
+
+      <div class="hometext">
+        <h1>hello, in</h1>
+        <h2>6 october university</h2>
+        <p>
+          the first private university in the Arab Republic of Egypt. O6U is
+          instituted by the Republican Decree number 243 1996. The university is
+          a member of the Association of Arab Universities and the Association
+          of African Universities.
+        </p>
+      </div>
+    </section>
+    <!-- contact -->
+    <fieldset>
+      <section class="contact" id="contact">
+        <div class="headings">
+          <h2>contact</h2>
+          <span>connect with me</span>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <input id="txt" type="text" placeholder=" enter your name" />
+            <input id="mail" type="email" placeholder=" enter your email" />
+            <input id="telo" type="tel" placeholder="ID" />
+            <textarea
+              style="resize: none"
+              name=""
+              id="areatxt"
+              placeholder=" write your message here . . ."
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input
+              onclick="sendmail()"
+              type="button"
+              value="send"
+              style="width: 50%"
+              class="btn"
+            />
+          </form>
+        </div>
+      </section>
+    </fieldset>
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="headings">
+        <h2>About</h2>
+        <p>introduction</p>
+      </div>
+      <div class="about-container">
+        <div class="aboutimg">
+          <img src="./img/13834.jpg" alt="" srcset="" />
+        </div>
+        <div class="aboutext">
+          <p>
+            the first private university in the Arab Republic of Egypt. O6U is
+            instituted by the Republican Decree number 243 1996. The university
+            is a member of the Association of Arab Universities and the
+            Association of African Universities.
+          </p>
+
+          <div class="information">
+            <div class="infobox">
+              <i class="bx bx-user"></i>
+              <span>O6U</span>
+            </div>
+
+            <div class="infobox">
+              <i class="bx bx-envelope"></i>
+              <span>O6U@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
